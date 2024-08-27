@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 400;
+  src: url(./../style/font/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 500;
+  src: url(./../style/font/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 600;
+  src: url(./../style/font/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 700;
+  src: url(./../style/font/Poppins/Poppins-Bold.ttf);
+}
+
+.desktop_img {
+  background-image: url(./../style/img/bg-intro-desktop.png);
+}
+
+.mobile_img {
+  background-image: url(./../style/img/bg-intro-mobile.png);
+}
+
+.error {
+  background-image: url(./../style/img/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 95%;
+}
